@@ -1,0 +1,52 @@
+.imgs {
+  font-family: "Noto Sans KR", sans-serif;
+  column-width: 36rem;
+  column-gap: 1.5rem;
+  column-count: 3;
+  max-width: 111rem;
+  margin: 5rem auto;
+}
+.imgs figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+.imgs figure img {
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+  margin: 0;
+  width: 100%;
+  height: 20rem;
+}
+.imgs figure figcaption {
+  padding: 1.2rem 1.5rem 2rem 1.5rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+}
+.imgs figure figcaption .date {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+}
+.imgs figure figcaption .title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  width: auto;
+}
+.imgs figure figcaption .description {
+  font-size: 1.6rem;
+  color: rgb(113, 113, 113);
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+.imgs figure figcaption .tag {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #1890ff;
+  font-family: Noto Sans KR, sans-serif;
+}
