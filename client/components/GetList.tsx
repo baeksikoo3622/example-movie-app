@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import styles from "./GetList.module.css";
+import styles from "../styles/GetList.module.css";
 
-const BlogMasonry = () => {
+const BlogList = () => {
   const [data, setData] = useState([]);
   const getList = async () => {
     const json = await (
@@ -36,4 +36,4 @@ const BlogMasonry = () => {
   );
 };
 
-export default BlogMasonry;
+export default BlogList;
